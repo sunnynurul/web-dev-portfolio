@@ -5,7 +5,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 /*shared style */
@@ -28,14 +28,8 @@
     border-radius: 5px;
 }
 
-/*  Nav Styles*/
+/*  header Styles*/
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 15px 100px;
-}
 
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -44,8 +38,12 @@ nav{
 
 }
 /*  Nav Styles*/
+
 nav{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin: 15px 100px;
 }
 
 .nav-title{
@@ -96,4 +94,87 @@ nav ul{
 .banner-content{
     max-width: 580px;
     
+}
+
+/* About styles */
+
+
+ul{
+    text-align: left;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    background-color: #FFFFFF;
+}
+
+.about-title{
+    text-align: center;
+}
+.about{
+    background-color: #FFF8F3;
+    margin: 80px 150px 100px 150px;
+    padding: 180px 280px 30px 280px;
+    max-width: 1140px;
+    height:550px;
+}
+
+/* What-I-do */
+
+.What-I-do{
+    text-align: center;
+    margin: 80px 150px 100px 150px;
+}
+
+
+
+/*  resume  */
+.resume{
+    display: flex;
+    margin: 80px 150px 100px 150px;
+    display: space-between;
+    gap:24px;
+}
+
+.resume-title{
+    text-align: center;
+}
+
+/* footer style */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+     margin: 30px 0 0 0;
+}
+
+.footer-col{
+   padding: 100px;
+}
+
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+}
+
+footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+}
+
+textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
 }
